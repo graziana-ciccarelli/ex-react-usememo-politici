@@ -7,7 +7,7 @@ const PoliticianCard = React.memo(({ politician }) => {
     <div className="politician-card">
       <img src={politician.image} alt={politician.name} />
       <h2>{politician.name}</h2>
-      <h4>{politician.position}</h4>
+      <h4>Position: {politician.position}</h4>
       <p>{politician.biography}</p>
     </div>
   );
