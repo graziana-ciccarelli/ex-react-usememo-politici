@@ -1,0 +1,70 @@
+.politicians-container {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .politicians-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .politician-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+  }
+  
+  .politician-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+  
+  .politician-card h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .politician-card h4 {
+    margin: 8px 0;
+    color: #777;
+  }
+  
+  .politician-card p {
+    color: #555;
+    line-height: 1.4;
+  }
+  
+
+  .politicians-container input {
+    width: 100%;
+    max-width: 400px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  
+  .politicians-container input:focus {
+    border-color: black; 
+    outline: none; 
+    background-color: #fff; 
+  }
+  
+  .politicians-container input::placeholder {
+    color: gray ;
+    
+  }
+  
